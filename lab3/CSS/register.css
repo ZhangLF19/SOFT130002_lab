@@ -1,0 +1,72 @@
+body {
+    background-color: #F6F6F6;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+div {
+    width: auto;
+    font-size: 16pt;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 35px;
+    padding-bottom: 38px;
+    text-align: right;
+}
+
+#home {
+    margin-right: 5%;
+}
+
+h1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #ff4391;
+}
+
+section {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6495ff;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 35%;
+}
+
+select {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 20%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 15px;
+}
+
+input[type="button"], input[type="submit"] {
+    width: 70px;
+    background-color: #FFFFFF;
+}
+
+textarea {
+    height: 200px;
+    background-color: #FFFFFF;
+}
