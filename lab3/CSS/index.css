@@ -1,0 +1,94 @@
+body {
+    background-color: #F6F6F6;
+}
+
+header {
+    background-color: #FFFFFF;
+    font-size: 16pt;
+
+}
+
+nav h1 {
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6495ff;
+}
+
+#logo {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#register {
+    float: right;
+    margin-top: 35px;
+    margin-right: 5%;
+}
+
+#content {
+    width: auto;
+    margin-left: 15%;
+    margin-right: 28%;
+    background-color: #FFFFFF;
+}
+
+#content h1 {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#content span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#recommendation {
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #ff4391;
+}
+
+.agreement {
+    font-weight: bolder;
+}
+
+
+h1 {
+    list-style: none;
+    display: inline-block;
+}
+
+
+h1 a{
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+    top: -18px;
+}
+
+aside {
+    float: right;
+    background-color: #FFFFFF;
+    font-size: 13pt;
+    height: 180px;
+    width: 10%;
+    margin-top: 20px;
+    margin-right: 15%;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 60px;
+}
