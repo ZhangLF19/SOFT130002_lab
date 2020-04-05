@@ -1,0 +1,31 @@
+
+.bottom{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(41, 41, 41, 0.81);
+}
+.button{
+    position: fixed;
+    right: 5%;
+    top: 80%;
+}
+.button img:hover {
+    transform: scale(1.1, 1.1);
+}
+.navbar-brand{
+    padding: 6px 6px;
+}
+footer{
+    background-color: #333333;
+}
+.row{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
