@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html lang="en">
 <head>
 
@@ -36,20 +37,19 @@ function getLoginForm(){
       <div class="jumbotron">
         <h1>
 <?php require_once("config.php");
-   $loggedIn=false;
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(validLogin()){
-        echo "Welcome ".$_POST['username'];
         $_SESSION['Username']=$_POST['username'];
-        $loggedIn=true;
     }
     else{
         echo "login unsuccessful";
     }
-    if(isset($_SESION['Username'])){
-        echo "Welcome ".$_SESION['Username'];
-    }
-} else{
+    
+    
+} if(isset($_SESION['Username'])){
+        echo "Welcome ".$_SESION['Username'];}
+ else{
     echo "No Post detected";
 }
 
@@ -71,11 +71,11 @@ function validLogin(){
 
 </h1>
       </div>
-<?php if($loggedIn||isset($_SESION['Username'])){
-    echo "This is some content";
-    echo '<br>'.'<a href="logout.php">'.'Logout</a>';
-} else{
+<?php if(!isset($_SESSION['Username'])){
     echo getLoginForm();
+} else{
+   echo "This is some content";
+   echo '<br>'.'<a href="logout.php">'.'Logout</a>';
 } ?>
  </div>
 </body>
